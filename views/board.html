@@ -160,7 +160,7 @@
             url: url,
             data: $(this).serialize(),
             success: function(data) {
-              alert(data);
+              alert(data.success ? data.message : data.error);
             }
           });
           e.preventDefault();
@@ -172,7 +172,7 @@
             url: url,
             data: $(this).serialize(),
             success: function(data) {
-              alert(data);
+              alert(data.success ? data.message : data.error);
             }
           });
           e.preventDefault();
@@ -184,7 +184,7 @@
             url: url,
             data: $(this).serialize(),
             success: function(data) {
-              alert(data);
+              alert(data.success ? data.message : data.error);
             }
           });
           e.preventDefault();
@@ -196,7 +196,7 @@
             url: url,
             data: $(this).serialize(),
             success: function(data) {
-              alert(data);
+              alert(data.success ? data.message : data.error);
             }
           });
           e.preventDefault();
